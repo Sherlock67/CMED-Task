@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32002.185
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMED-WEB", "CMED-WEB\CMED-WEB.csproj", "{5FC7C38D-E9FD-49D5-A04C-C2B57B3BD48D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CMED-WEB", "CMED-WEB\CMED-WEB.csproj", "{5FC7C38D-E9FD-49D5-A04C-C2B57B3BD48D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMED-DataAcessLayer", "CMED-DataAcessLayer\CMED-DataAcessLayer.csproj", "{492B0F45-C8FD-447C-B06C-60F048914DBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CMED-DataAcessLayer", "CMED-DataAcessLayer\CMED-DataAcessLayer.csproj", "{492B0F45-C8FD-447C-B06C-60F048914DBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMED-BusinessLayer", "CMED-BusinessLayer\CMED-BusinessLayer.csproj", "{C052A821-0914-49F8-9992-E074EA85BA8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CMED-BusinessLayer", "CMED-BusinessLayer\CMED-BusinessLayer.csproj", "{C052A821-0914-49F8-9992-E074EA85BA8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMED-API", "CMED-API\CMED-API.csproj", "{A66BED49-C0C7-4645-B7A2-089FE52A40F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{C052A821-0914-49F8-9992-E074EA85BA8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C052A821-0914-49F8-9992-E074EA85BA8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C052A821-0914-49F8-9992-E074EA85BA8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A66BED49-C0C7-4645-B7A2-089FE52A40F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A66BED49-C0C7-4645-B7A2-089FE52A40F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A66BED49-C0C7-4645-B7A2-089FE52A40F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A66BED49-C0C7-4645-B7A2-089FE52A40F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CMED-DataAcessLayer\CMED-DataAcessLayer.csproj" />
+  </ItemGroup>
+
 </Project>
