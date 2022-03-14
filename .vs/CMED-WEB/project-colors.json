@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5fc7c38d-e9fd-49d5-a04c-c2b57b3bd48d": {
+      "ProjectGuid": "5fc7c38d-e9fd-49d5-a04c-c2b57b3bd48d",
+      "DisplayName": "CMED-WEB",
+      "ColorIndex": 0
+    },
+    "492b0f45-c8fd-447c-b06c-60f048914dbf": {
+      "ProjectGuid": "492b0f45-c8fd-447c-b06c-60f048914dbf",
+      "DisplayName": "CMED-DataAcessLayer",
+      "ColorIndex": 1
+    },
+    "c052a821-0914-49f8-9992-e074ea85ba8b": {
+      "ProjectGuid": "c052a821-0914-49f8-9992-e074ea85ba8b",
+      "DisplayName": "CMED-BusinessLayer",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

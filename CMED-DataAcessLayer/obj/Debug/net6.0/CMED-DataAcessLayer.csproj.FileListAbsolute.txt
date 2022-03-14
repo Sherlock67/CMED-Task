@@ -1,0 +1,14 @@
+C:\Users\USER\source\repos\CMED-WEB\CMED-DataAcessLayer\bin\Debug\net6.0\CMED-DataAcessLayer.deps.json
+C:\Users\USER\source\repos\CMED-WEB\CMED-DataAcessLayer\bin\Debug\net6.0\CMED-DataAcessLayer.dll
+C:\Users\USER\source\repos\CMED-WEB\CMED-DataAcessLayer\bin\Debug\net6.0\ref\CMED-DataAcessLayer.dll
+C:\Users\USER\source\repos\CMED-WEB\CMED-DataAcessLayer\bin\Debug\net6.0\CMED-DataAcessLayer.pdb
+C:\Users\USER\source\repos\CMED-WEB\CMED-DataAcessLayer\obj\Debug\net6.0\CMED-DataAcessLayer.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\CMED-WEB\CMED-DataAcessLayer\obj\Debug\net6.0\CMED-DataAcessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\source\repos\CMED-WEB\CMED-DataAcessLayer\obj\Debug\net6.0\CMED-DataAcessLayer.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\CMED-WEB\CMED-DataAcessLayer\obj\Debug\net6.0\CMED-DataAcessLayer.AssemblyInfo.cs
+C:\Users\USER\source\repos\CMED-WEB\CMED-DataAcessLayer\obj\Debug\net6.0\CMED-DataAcessLayer.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\CMED-WEB\CMED-DataAcessLayer\obj\Debug\net6.0\CMED-DataAcessLayer.dll
+C:\Users\USER\source\repos\CMED-WEB\CMED-DataAcessLayer\obj\Debug\net6.0\ref\CMED-DataAcessLayer.dll
+C:\Users\USER\source\repos\CMED-WEB\CMED-DataAcessLayer\obj\Debug\net6.0\CMED-DataAcessLayer.pdb
+C:\Users\USER\source\repos\CMED-WEB\CMED-DataAcessLayer\bin\Debug\net6.0\CMED-DataAcessLayer.runtimeconfig.json
+C:\Users\USER\source\repos\CMED-WEB\CMED-DataAcessLayer\obj\Debug\net6.0\CMED-DataAcessLayer.genruntimeconfig.cache

@@ -1,0 +1,12 @@
+C:\Users\USER\source\repos\CMED-WEB\CMED-BusinessLayer\bin\Debug\net6.0\CMED-BusinessLayer.deps.json
+C:\Users\USER\source\repos\CMED-WEB\CMED-BusinessLayer\bin\Debug\net6.0\CMED-BusinessLayer.dll
+C:\Users\USER\source\repos\CMED-WEB\CMED-BusinessLayer\bin\Debug\net6.0\ref\CMED-BusinessLayer.dll
+C:\Users\USER\source\repos\CMED-WEB\CMED-BusinessLayer\bin\Debug\net6.0\CMED-BusinessLayer.pdb
+C:\Users\USER\source\repos\CMED-WEB\CMED-BusinessLayer\obj\Debug\net6.0\CMED-BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\CMED-WEB\CMED-BusinessLayer\obj\Debug\net6.0\CMED-BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\source\repos\CMED-WEB\CMED-BusinessLayer\obj\Debug\net6.0\CMED-BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\CMED-WEB\CMED-BusinessLayer\obj\Debug\net6.0\CMED-BusinessLayer.AssemblyInfo.cs
+C:\Users\USER\source\repos\CMED-WEB\CMED-BusinessLayer\obj\Debug\net6.0\CMED-BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\CMED-WEB\CMED-BusinessLayer\obj\Debug\net6.0\CMED-BusinessLayer.dll
+C:\Users\USER\source\repos\CMED-WEB\CMED-BusinessLayer\obj\Debug\net6.0\ref\CMED-BusinessLayer.dll
+C:\Users\USER\source\repos\CMED-WEB\CMED-BusinessLayer\obj\Debug\net6.0\CMED-BusinessLayer.pdb
