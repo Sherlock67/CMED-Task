@@ -15,6 +15,7 @@ namespace CMED_WEB.Controllers
             using (var client = new HttpClient())
             {
                 client.DefaultRequestHeaders.Clear();
+                client.BaseAddress = new Uri(url);
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
                 var responseMsg = await client.GetAsync("Prescription/GetAllPrescription");
                 if (responseMsg!=null)
