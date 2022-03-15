@@ -10,3 +10,6 @@ C:\Users\USER\source\repos\CMED-WEB\CMED-BusinessLayer\obj\Debug\net6.0\CMED-Bus
 C:\Users\USER\source\repos\CMED-WEB\CMED-BusinessLayer\obj\Debug\net6.0\CMED-BusinessLayer.dll
 C:\Users\USER\source\repos\CMED-WEB\CMED-BusinessLayer\obj\Debug\net6.0\ref\CMED-BusinessLayer.dll
 C:\Users\USER\source\repos\CMED-WEB\CMED-BusinessLayer\obj\Debug\net6.0\CMED-BusinessLayer.pdb
+C:\Users\USER\source\repos\CMED-WEB\CMED-BusinessLayer\bin\Debug\net6.0\CMED-DataAcessLayer.dll
+C:\Users\USER\source\repos\CMED-WEB\CMED-BusinessLayer\bin\Debug\net6.0\CMED-DataAcessLayer.pdb
+C:\Users\USER\source\repos\CMED-WEB\CMED-BusinessLayer\obj\Debug\net6.0\CMED-BusinessLayer.csproj.CopyComplete

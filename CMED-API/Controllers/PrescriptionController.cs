@@ -1,6 +1,8 @@
 ﻿using CMED_BusinessLayer.Service;
+using CMED_DataAcessLayer.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace CMED_API.Controllers
 {
@@ -53,7 +55,7 @@ namespace CMED_API.Controllers
             }
         }
         [HttpPut("UpdatePrescription")]
-        public bool UpdatePerson(int id)
+        public bool UpdatePrescription(int id)
         {
             try
             {
