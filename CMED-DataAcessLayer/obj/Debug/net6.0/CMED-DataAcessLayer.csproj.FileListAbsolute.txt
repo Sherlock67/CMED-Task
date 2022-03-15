@@ -11,4 +11,3 @@ C:\Users\USER\source\repos\CMED-WEB\CMED-DataAcessLayer\obj\Debug\net6.0\CMED-Da
 C:\Users\USER\source\repos\CMED-WEB\CMED-DataAcessLayer\obj\Debug\net6.0\ref\CMED-DataAcessLayer.dll
 C:\Users\USER\source\repos\CMED-WEB\CMED-DataAcessLayer\obj\Debug\net6.0\CMED-DataAcessLayer.pdb
 C:\Users\USER\source\repos\CMED-WEB\CMED-DataAcessLayer\obj\Debug\net6.0\CMED-DataAcessLayer.genruntimeconfig.cache
-C:\Users\USER\source\repos\CMED-WEB\CMED-DataAcessLayer\obj\Debug\net6.0\CMED-DataAcessLayer.csproj.AssemblyReference.cache

@@ -68,11 +68,11 @@ namespace CMED_API.Controllers
        
        
         [HttpPut("UpdatePrescription")]
-        public bool UpdatePrescription(int id)
+        public bool UpdatePrescription(Prescription prescription)
         {
             try
             {
-                _prescription.UpdatePrescription(id);
+                _prescription.UpdatePrescription(prescription);
                 return true;
             }
             catch (Exception)

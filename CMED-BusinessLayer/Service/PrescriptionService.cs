@@ -53,16 +53,13 @@ namespace CMED_BusinessLayer.Service
             }
 
         }
-        public async Task UpdatePrescription(int id)
+        public async Task UpdatePrescription(Prescription obj)
         {
             try
             {
-                var DataList = prescription.GetById(id);
-                prescription.Update(DataList);
-                //foreach (var item in DataList)
-                //{
-                //    prescription.Update(item);
-                //}
+                
+                prescription.Update(obj);
+                
 
             }
             catch (Exception)

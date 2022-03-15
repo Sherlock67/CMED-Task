@@ -99,7 +99,7 @@ namespace CMED_WEB.Controllers
                 client.DefaultRequestHeaders.Clear();
                 client.BaseAddress = new Uri(url);
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-                var responseMsg = await client.PutAsJsonAsync("/api/Prescription/UpdatePrescription?id=" +prescription.Prescription_Id, prescription);
+                var responseMsg = await client.PutAsJsonAsync("/api/Prescription/UpdatePrescription", prescription);
                 if (responseMsg.IsSuccessStatusCode)
                 {
                     var res = responseMsg.Content.ReadAsStringAsync().Result;
