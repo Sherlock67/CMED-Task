@@ -60,7 +60,7 @@
                  @item.NextVisitDate
             </td>
              <td>
-                @Html.ActionLink("UpdatePrescription", "UpdatePrescription", "Prescription", new { id = @item.Prescription_Id }, null)
+                @Html.ActionLink("Edit", "UpdatePrescription", "Prescription", new { id = @item.Prescription_Id }, null)
                
                 &nbsp; &nbsp; @Html.ActionLink("Delete", "DeletePrescription", "Prescription", new { id = @item.Prescription_Id }, null)
 

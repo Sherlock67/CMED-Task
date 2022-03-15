@@ -37,6 +37,21 @@ namespace CMED_API.Controllers
 
             return data.ToList(); 
         }
+        [HttpGet("GetPrescriptionById")]
+        public Prescription GetPrescriptionById(int id)
+        {
+            try
+            {
+                return _prescription.GetPrescriptionById(id);
+                
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+           
+        }
+
         [HttpDelete("DeletePrescription")]
         public bool DeletePrescription(int id)
         {
@@ -50,6 +65,8 @@ namespace CMED_API.Controllers
                 return false;
             }
         }
+       
+       
         [HttpPut("UpdatePrescription")]
         public bool UpdatePrescription(int id)
         {

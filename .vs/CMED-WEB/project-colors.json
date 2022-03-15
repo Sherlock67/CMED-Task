@@ -20,6 +20,11 @@
       "ProjectGuid": "a66bed49-c0c7-4645-b7a2-089fe52a40f9",
       "DisplayName": "CMED-API",
       "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 4
