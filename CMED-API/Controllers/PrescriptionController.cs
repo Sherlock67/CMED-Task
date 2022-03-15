@@ -37,7 +37,7 @@ namespace CMED_API.Controllers
 
             return data.ToList(); 
         }
-        [HttpDelete("DeletePerson")]
+        [HttpDelete("DeletePrescription")]
         public bool DeletePrescription(int id)
         {
             try

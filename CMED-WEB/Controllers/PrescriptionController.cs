@@ -51,5 +51,23 @@ namespace CMED_WEB.Controllers
             return View();
         }
 
+        public async Task<ActionResult> DeletePrescription(int? id)
+        {
+            string custommsg = string.Empty;
+            using (var client = new HttpClient())
+            {
+                client.DefaultRequestHeaders.Clear();
+                client.BaseAddress = new Uri(url);
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                var responseMsg = await client.DeleteAsync("/api/Prescription/DeletePrescription?id=" + id);
+                if (responseMsg.IsSuccessStatusCode)
+                {
+                    var res = responseMsg.Content.ReadAsStringAsync().Result;
+                    custommsg = JsonConvert.DeserializeObject<string>(res);
+                }
+            }
+            return RedirectToAction("AllPrescription");
+        }
+
     }
 }
