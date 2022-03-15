@@ -19,7 +19,7 @@ namespace CMED_BusinessLayer.Service
         {
             return prescription.GetAll().Where(x => x.Prescription_Id == id).ToList();
         }
-        public IEnumerable<Prescription> GetAllPrescription()
+        public IEnumerable<Prescription> GetAllPrescriptions()
         {
             try
             {

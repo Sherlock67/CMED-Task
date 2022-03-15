@@ -17,7 +17,7 @@ namespace CMED_WEB.Controllers
                 client.DefaultRequestHeaders.Clear();
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
                 var responseMsg = await client.GetAsync("Prescription/GetAllPrescription");
-                if (responseMsg.IsSuccessStatusCode)
+                if (responseMsg!=null)
                 {
                     var prescriptionlist = responseMsg.Content.ReadAsStringAsync().Result;
                     listprescription = JsonConvert.DeserializeObject<List<Prescription>>(prescriptionlist);
@@ -40,8 +40,8 @@ namespace CMED_WEB.Controllers
                 client.DefaultRequestHeaders.Clear();
                 client.BaseAddress = new Uri(url);
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-                var responseMsg = await client.PostAsJsonAsync("Prescription/CreatePrescription", prescription);
-                if (responseMsg.IsSuccessStatusCode)
+                var responseMsg = await client.PostAsJsonAsync("/api/Prescription/CreatePrescription", prescription);
+                if (responseMsg!= null)
                 {
                     var res = responseMsg.Content.ReadAsStringAsync().Result;
                     custommsg = JsonConvert.DeserializeObject<string>(res);

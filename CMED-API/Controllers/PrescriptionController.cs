@@ -23,6 +23,7 @@ namespace CMED_API.Controllers
             {
                 await _prescription.AddNewPrescription(prescription);
                 return true;
+                
             }
             catch (Exception)
             {
@@ -32,7 +33,7 @@ namespace CMED_API.Controllers
         [HttpGet("GetAllPrescription")]
         public Object GetAllPrescription()
         {
-            var data = _prescription.GetAllPrescription();
+            var data = _prescription.GetAllPrescriptions();
             var json = JsonConvert.SerializeObject(data, Formatting.Indented,
                 new JsonSerializerSettings()
                 {

@@ -1,0 +1,66 @@
+﻿@model IEnumerable<CMED_DataAcessLayer.Models.Prescription>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>All Employee List</h2>
+@Html.ActionLink("New Employee Record", "Add", "Record")
+<table style="width:100%" class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+               Date
+            </th>
+            <th>
+              Name
+            </th>
+            <th>
+               Age
+            </th>
+            <th>
+                Gender
+            </th>
+            <th>
+                  Diagnosis
+            </th>
+             <th>
+                  Medicine
+            </th>
+            <th>
+                  NextDateTime
+            </th>
+          
+        </tr>
+    </thead>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @item.Prescription_Date
+            </td>
+            <td>
+                @item.Name
+            </td>
+            <td>
+                @item.Age
+            </td>
+            <td>
+               @item.Gender
+
+            </td>
+            <td>
+               @item.Diagnosis
+
+            </td>
+             <td>
+               @item.Medicine
+
+            </td>
+            <td>
+                 @item.NextVisitDate
+            </td>
+        </tr>
+
+    }
+
+</table>
