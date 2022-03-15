@@ -31,16 +31,11 @@ namespace CMED_API.Controllers
             }
         }
         [HttpGet("GetAllPrescription")]
-        public Object GetAllPrescription()
+        public List<Prescription> GetAllPrescription()
         {
             var data = _prescription.GetAllPrescription();
-            var json = JsonConvert.SerializeObject(data, Formatting.Indented,
-                new JsonSerializerSettings()
-                {
-                    ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
-                }
-            );
-            return json;
+
+            return data.ToList(); 
         }
         [HttpDelete("DeletePerson")]
         public bool DeletePrescription(int id)
