@@ -1,0 +1,40 @@
+﻿@model IEnumerable<CMED_WEB.Models.AllServices>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    @foreach (var item in Model)
+    {
+        @item.root.nlmDisclaimer
+        @item.root.interactionTypeGroup
+        @item.minConcept.name
+        @item.minConcept.rxcui
+        @item.minConcept.tty
+        @item.sourceConcept.id
+        @item.sourceConcept.name
+        @item.sourceConcept.url
+        @item.interactionPair.interactionConcept
+        @item.interactionPair.description
+        @item.interactionPair.severity
+        @item.type.comment
+        @item.type.minConceptItem
+        @item.type.interactionPair
+        @item.typeGroup.interactionType
+        @item.typeGroup.sourceDisclaimer
+        @item.typeGroup.sourceName
+        @item.Concept.minConceptItem
+        @item.Concept.sourceConceptItem
+
+        
+    }
+    
+</head>
+<body>
+</body>
+</html>

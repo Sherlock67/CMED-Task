@@ -8,6 +8,7 @@ namespace CMED_WEB.Controllers
     public class UserController : Controller
     {
         private static string url = "https://localhost:7075/";
+        [HttpGet]
         public IActionResult AddUser()
         {
             return View();
@@ -21,7 +22,7 @@ namespace CMED_WEB.Controllers
                 client.DefaultRequestHeaders.Clear();
                 client.BaseAddress = new Uri(url);
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-                var responseMsg = await client.PostAsJsonAsync("/api/Prescription/CreateUser", registration);
+                var responseMsg = await client.PostAsJsonAsync("/api/UserApi/CreateUser", registration);
                 if (responseMsg != null)
                 {
                     var res = responseMsg.Content.ReadAsStringAsync().Result;
@@ -30,5 +31,23 @@ namespace CMED_WEB.Controllers
             }
             return View();
         }
+        //[HttpPost]
+        //public async Task<IActionResult> UserLogin(Login login)
+        //{
+        //    string custommsg = string.Empty;
+        //    using (var client = new HttpClient())
+        //    {
+        //        client.DefaultRequestHeaders.Clear();
+        //        client.BaseAddress = new Uri(url);
+        //        client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+        //        var responseMsg = await client.PostAsJsonAsync("/api/UserApi/UserLogin", login);
+        //        if (responseMsg != null)
+        //        {
+        //            var res = responseMsg.Content.ReadAsStringAsync().Result;
+        //            custommsg = JsonConvert.DeserializeObject<string>(res);
+        //        }
+        //    }
+        //    return View();
+        //}
     }
 }
