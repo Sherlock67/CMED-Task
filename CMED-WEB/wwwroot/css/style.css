@@ -1,0 +1,37 @@
+﻿.top-align {
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.error-text {
+    display: none;
+}
+
+.icon {
+    display: none;
+}
+
+.error-text {
+    text-align: right;
+    bottom: 0;
+    right: 0;
+    font-size: .8rem;
+    font-style: italic;
+    color: hsl(0, 100%, 74%);
+    font-weight: 500;
+}
+
+.error-icon {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    top: 28%;
+}
+
+.terms {
+    color: lightcoral;
+}
+
+.para {
+    color: gray;
+}

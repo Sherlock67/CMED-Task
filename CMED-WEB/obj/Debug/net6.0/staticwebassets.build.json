@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+z/jdAnVKcT9Hx1fez+fAglMBjSxp181Zj3ZTZ44EmA=",
+  "Hash": "0udfwfQXdPtWoqrQerT8Y65HAGdX/sU4aBmeia21tG4=",
   "Source": "CMED-WEB",
   "BasePath": "_content/CMED-WEB",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\source\\repos\\CMED-WEB\\CMED-WEB\\wwwroot\\css\\style.css",
+      "SourceId": "CMED-WEB",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\CMED-WEB\\CMED-WEB\\wwwroot\\",
+      "BasePath": "_content/CMED-WEB",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
       "Identity": "C:\\Users\\USER\\source\\repos\\CMED-WEB\\CMED-WEB\\wwwroot\\favicon.ico",
