@@ -29,23 +29,12 @@ namespace CMED_API.Controllers
                 return false;
             }
         }
-        //[HttpGet("UserLogin")]
-        //public async Task<RedirectToActionResult> UserLogin(Login login)
-        //{
+        [HttpPost("UserLogin")]
+        public async Task<bool> UserLogin(Login login)
+        {
+            return await _registration.VerifyUserAsync(login);
             
-        //    var obj = _registration.VerifyUserAsync(login);
-            
-        //    if (obj !=null)
-        //    {
-        //        return RedirectToAction("AllPrescription","Prescription");
-        //    }
-        //    else
-        //    {
-        //        return RedirectToAction("AddUser", "User");
-        //    }
-           
-           
-        //}
+        }
 
 
 

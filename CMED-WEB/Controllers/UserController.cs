@@ -31,23 +31,37 @@ namespace CMED_WEB.Controllers
             }
             return View();
         }
-        //[HttpPost]
-        //public async Task<IActionResult> UserLogin(Login login)
-        //{
-        //    string custommsg = string.Empty;
-        //    using (var client = new HttpClient())
-        //    {
-        //        client.DefaultRequestHeaders.Clear();
-        //        client.BaseAddress = new Uri(url);
-        //        client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-        //        var responseMsg = await client.PostAsJsonAsync("/api/UserApi/UserLogin", login);
-        //        if (responseMsg != null)
-        //        {
-        //            var res = responseMsg.Content.ReadAsStringAsync().Result;
-        //            custommsg = JsonConvert.DeserializeObject<string>(res);
-        //        }
-        //    }
-        //    return View();
-        //}
+        [HttpGet]
+        public IActionResult UserLogin()
+        {
+
+            return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> UserLogin(Login login)
+        {
+            bool custommsg = false;
+            using (var client = new HttpClient())
+            {
+                client.DefaultRequestHeaders.Clear();
+                client.BaseAddress = new Uri(url);
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                var responseMsg = await client.PostAsJsonAsync("/api/UserApi/UserLogin",login);
+                
+                if (responseMsg != null)
+                {
+                    var res = responseMsg.Content.ReadAsStringAsync().Result;
+                    custommsg = JsonConvert.DeserializeObject<bool>(res);
+                }
+                if(custommsg == true)
+                {
+                    return RedirectToAction("AllPrescription", "Prescription");
+                }
+                else
+                {
+                    return RedirectToAction("UserLogin", "User");
+                }
+            }
+        }
     }
 }

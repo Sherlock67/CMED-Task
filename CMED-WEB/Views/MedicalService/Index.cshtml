@@ -1,4 +1,4 @@
-﻿@model IEnumerable<CMED_WEB.Models.AllServices>
+﻿@model CMED_WEB.Models.Root
 @{
     Layout = null;
 }
@@ -9,30 +9,27 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Index</title>
-    @foreach (var item in Model)
+    @foreach(var item in Model.interactionTypeGroup)
     {
-        @item.root.nlmDisclaimer
-        @item.root.interactionTypeGroup
-        @item.minConcept.name
-        @item.minConcept.rxcui
-        @item.minConcept.tty
-        @item.sourceConcept.id
-        @item.sourceConcept.name
-        @item.sourceConcept.url
-        @item.interactionPair.interactionConcept
-        @item.interactionPair.description
-        @item.interactionPair.severity
-        @item.type.comment
-        @item.type.minConceptItem
-        @item.type.interactionPair
-        @item.typeGroup.interactionType
-        @item.typeGroup.sourceDisclaimer
-        @item.typeGroup.sourceName
-        @item.Concept.minConceptItem
-        @item.Concept.sourceConceptItem
+          @item.sourceName
+          @item.sourceDisclaimer
+          @item.interactionType[0].comment
+          @item.interactionType[1].minConceptItem.name
+          @item.interactionType[1].minConceptItem.rxcui
+          @item.interactionType[1].minConceptItem.tty
+          @item.interactionType[1].interactionPair[0].severity
+          @item.interactionType[1].interactionPair[0].description
+          @item.interactionType[1].interactionPair[0].interactionConcept[0].minConceptItem.name
+          @item.interactionType[1].interactionPair[0].interactionConcept[0].minConceptItem.rxcui
+          @item.interactionType[1].interactionPair[0].interactionConcept[0].minConceptItem.tty
+          @item.interactionType[1].interactionPair[0].interactionConcept[1].sourceConceptItem.id
+          @item.interactionType[1].interactionPair[0].interactionConcept[1].sourceConceptItem.name
+          @item.interactionType[1].interactionPair[0].interactionConcept[1].sourceConceptItem.url
+       
+         
 
-        
     }
+  
     
 </head>
 <body>

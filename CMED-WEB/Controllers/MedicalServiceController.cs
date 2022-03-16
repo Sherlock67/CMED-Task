@@ -9,13 +9,13 @@ namespace CMED_WEB.Controllers
     {
         public async Task<IActionResult> Index()
         {
-            List<AllServices> Service = new List<AllServices>();
+            List<Root> Service = new List<Root>();
             using (var httpClient = new HttpClient())
             {
                 using (var response = await httpClient.GetAsync("https://rxnav.nlm.nih.gov/REST/interaction/interaction.json?rxcui=341248"))
                 {
                     string apiResponse = await response.Content.ReadAsStringAsync();
-                    Service = JsonConvert.DeserializeObject<List<AllServices>>(apiResponse);
+                    Service = JsonConvert.DeserializeObject<List<Root>>(apiResponse);
                 }
             }
             return View(Service);
