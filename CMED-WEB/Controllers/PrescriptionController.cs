@@ -27,6 +27,7 @@ namespace CMED_WEB.Controllers
             }
             
             return View(listprescription);
+            
         }
         [HttpGet]
         public IActionResult AddPrescription()
@@ -36,6 +37,7 @@ namespace CMED_WEB.Controllers
         [HttpPost]
         public async Task<IActionResult> AddPrescription(Prescription prescription)
         {
+
             string custommsg = string.Empty;
             using(var client = new HttpClient())
             {
@@ -49,7 +51,9 @@ namespace CMED_WEB.Controllers
                     custommsg = JsonConvert.DeserializeObject<string>(res);
                 }
             }
+            TempData["success"] = "Prescription Created";
             return View();
+            
         }
 
         public async Task<ActionResult> DeletePrescription(int? id)
@@ -67,7 +71,9 @@ namespace CMED_WEB.Controllers
                     custommsg = JsonConvert.DeserializeObject<string>(res);
                 }
             }
+            TempData["success"] = "Prescription Deleted";
             return RedirectToAction("AllPrescription");
+            
         }
         [HttpGet]
         public async Task<IActionResult> UpdatePrescription(int id)
@@ -106,7 +112,9 @@ namespace CMED_WEB.Controllers
                     custommsg = JsonConvert.DeserializeObject<string>(res);
                 }
             }
+            TempData["success"] = "Prescription Edited";
             return RedirectToAction("AllPrescription");
+            
         }
 
     }

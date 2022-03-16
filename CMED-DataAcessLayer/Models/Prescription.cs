@@ -13,8 +13,9 @@ namespace CMED_DataAcessLayer.Models
         public int Prescription_Id { get; set; }
 
         public DateTime Prescription_Date { get; set; }
+      
         public string Name { get; set; }
-
+       
         public int Age { get; set; }
 
         public string Gender { get; set; }
