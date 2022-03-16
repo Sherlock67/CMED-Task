@@ -12,3 +12,13 @@ CMED_API containing all the API
 CMED_BusinessLayer is we have all the services to communicate with Database.
 CMED_DataAcessLayer we all have the repository and interfaces.
 CMED_WEB we have all the views 
+
+N.B 
+At the bottom of the question there was a api link 
+i have feteched it 
+You will find it in AllPrescription View 
+A button named All Services will take you to that table page.
+I have not showed all the data because of its size.
+Hope its considerable.
+Best Regards
+Mushfiqul Alam
