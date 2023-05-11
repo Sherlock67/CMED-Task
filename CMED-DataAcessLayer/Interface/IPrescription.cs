@@ -9,5 +9,6 @@ namespace CMED_DataAcessLayer.Interface
 {
     public interface IPrescription : IRepository<Prescription>
     {
+
     }
 }

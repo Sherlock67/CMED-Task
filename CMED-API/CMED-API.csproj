@@ -14,6 +14,7 @@
   <ItemGroup>
     <ProjectReference Include="..\CMED-BusinessLayer\CMED-BusinessLayer.csproj" />
     <ProjectReference Include="..\CMED-DataAcessLayer\CMED-DataAcessLayer.csproj" />
+    <ProjectReference Include="..\CMED-WEB\CMED-WEB.csproj" />
   </ItemGroup>
 
 </Project>

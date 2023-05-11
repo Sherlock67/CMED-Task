@@ -10,6 +10,7 @@
         "dependencies": {
           "CMED-BusinessLayer": "1.0.0",
           "CMED-DataAcessLayer": "1.0.0",
+          "CMED-WEB": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
@@ -2255,6 +2256,18 @@
         "runtime": {
           "CMED-DataAcessLayer.dll": {}
         }
+      },
+      "CMED-WEB/1.0.0": {
+        "dependencies": {
+          "CMED-DataAcessLayer": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.3",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.2",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "CMED-WEB.dll": {}
+        }
       }
     }
   },
@@ -3495,6 +3508,11 @@
       "sha512": ""
     },
     "CMED-DataAcessLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CMED-WEB/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

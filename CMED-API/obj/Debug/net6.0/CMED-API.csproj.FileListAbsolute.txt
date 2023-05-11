@@ -264,3 +264,10 @@ C:\Users\USER\source\repos\CMED-WEB\CMED-API\obj\Debug\net6.0\CMED-API.dll
 C:\Users\USER\source\repos\CMED-WEB\CMED-API\obj\Debug\net6.0\ref\CMED-API.dll
 C:\Users\USER\source\repos\CMED-WEB\CMED-API\obj\Debug\net6.0\CMED-API.pdb
 C:\Users\USER\source\repos\CMED-WEB\CMED-API\obj\Debug\net6.0\CMED-API.genruntimeconfig.cache
+C:\Users\USER\source\repos\CMED-WEB\CMED-API\bin\Debug\net6.0\CMED-WEB.deps.json
+C:\Users\USER\source\repos\CMED-WEB\CMED-API\bin\Debug\net6.0\CMED-WEB.runtimeconfig.json
+C:\Users\USER\source\repos\CMED-WEB\CMED-API\bin\Debug\net6.0\CMED-WEB.staticwebassets.runtime.json
+C:\Users\USER\source\repos\CMED-WEB\CMED-API\bin\Debug\net6.0\CMED-WEB.exe
+C:\Users\USER\source\repos\CMED-WEB\CMED-API\bin\Debug\net6.0\CMED-API.staticwebassets.runtime.json
+C:\Users\USER\source\repos\CMED-WEB\CMED-API\bin\Debug\net6.0\CMED-WEB.dll
+C:\Users\USER\source\repos\CMED-WEB\CMED-API\bin\Debug\net6.0\CMED-WEB.pdb
